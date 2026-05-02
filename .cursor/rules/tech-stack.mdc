@@ -1,0 +1,17 @@
+# Tech Stack
+
+Web:
+- Next.js
+- TypeScript
+- Tailwind CSS
+- Vercel deployment
+
+Automation:
+- Google Apps Script
+- Google Sheets
+- Google Forms
+- Google Drive
+
+Do not introduce unnecessary dependencies.
+Keep the web app mostly static.
+Use environment variables for private form URLs and admin links.

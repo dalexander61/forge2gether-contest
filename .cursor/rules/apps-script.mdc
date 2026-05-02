@@ -1,0 +1,23 @@
+# Google Apps Script Rules
+
+Write Apps Script in modular files:
+- config.gs
+- ids.gs
+- signup.gs
+- training.gs
+- entry.gs
+- judging.gs
+- finalists.gs
+- certificates.gs
+- emailTemplates.gs
+
+Every automation should:
+1. Validate required fields
+2. Avoid duplicate processing
+3. Log email sends
+4. Catch errors
+5. Write errors to an Email Log or Error Log tab
+
+Use clear constants for sheet names and column headers.
+Avoid hard-coded column numbers when possible.
+Prefer header-based lookup.

@@ -1,0 +1,15 @@
+# Project Overview
+
+This project supports the Forge2gether Essay Contest Phase 1 system.
+
+The system uses:
+- Google Forms for intake
+- Google Sheets as operational database
+- Google Apps Script for automation
+- Next.js static/lightweight website for public pages
+
+Do not overbuild.
+Do not add full user accounts unless explicitly requested.
+Do not add Supabase or a database in Phase 1.
+Optimize for fewer than 500 students.
+Prioritize simplicity, reliability, and clean handoff to nontechnical admins.

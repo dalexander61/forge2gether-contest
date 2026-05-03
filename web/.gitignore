@@ -3,3 +3,7 @@ node_modules
 *.log
 dist
 .vercel
+
+# Local environment files
+.env
+.env*.local

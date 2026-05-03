@@ -1,4 +1,6 @@
 export default function ContestPage() {
+  const signupFormUrl = process.env.NEXT_PUBLIC_SIGNUP_FORM_URL ?? "";
+
   return (
     <main className="mx-auto max-w-5xl space-y-16 px-4 py-10 sm:px-6 lg:py-14">
       <section className="space-y-6 rounded-2xl bg-slate-50 p-6 sm:p-10">
@@ -12,8 +14,10 @@ export default function ContestPage() {
         </p>
         <div className="flex flex-col gap-3 sm:flex-row">
           <a
-            href="/training"
-            className="inline-flex items-center justify-center rounded-md bg-slate-900 px-5 py-3 text-sm font-semibold text-white hover:bg-slate-800"
+            href={signupFormUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center justify-center rounded-md bg-slate-900 px-6 py-3.5 text-base font-semibold text-white shadow-sm ring-1 ring-slate-900/10 hover:bg-slate-800"
           >
             Start the Training
           </a>
@@ -97,8 +101,10 @@ export default function ContestPage() {
           Placeholder CTA text inviting participants to complete the training and prepare for submission.
         </p>
         <a
-          href="/training"
-          className="mt-6 inline-flex items-center justify-center rounded-md bg-white px-5 py-3 text-sm font-semibold text-slate-900 hover:bg-slate-100"
+          href={signupFormUrl}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="mt-6 inline-flex items-center justify-center rounded-md bg-white px-6 py-3.5 text-base font-semibold text-slate-900 shadow-sm ring-1 ring-white/30 hover:bg-slate-100"
         >
           Start the Training
         </a>

@@ -1,5 +1,7 @@
 export default function ContestPage() {
-  const signupFormUrl = process.env.NEXT_PUBLIC_SIGNUP_FORM_URL ?? "";
+  const signupFormUrl =
+    process.env.NEXT_PUBLIC_SIGNUP_FORM_URL ??
+    "https://docs.google.com/forms/d/e/1FAIpQLSd-ch0nZZD44TNIHHJD29aELBcNI_ciJ3a_i6butieCB6IQFA/viewform?usp=dialog";
 
   return (
     <main className="mx-auto max-w-5xl space-y-16 px-4 py-10 sm:px-6 lg:py-14">

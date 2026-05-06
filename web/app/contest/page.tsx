@@ -1,6 +1,6 @@
 export default function ContestPage() {
-  const signupFormUrl =
-    process.env.NEXT_PUBLIC_SIGNUP_FORM_URL ??
+  const trainingFormUrl =
+    process.env.NEXT_PUBLIC_TRAINING_FORM_URL ??
     "https://docs.google.com/forms/d/e/1FAIpQLSd-ch0nZZD44TNIHHJD29aELBcNI_ciJ3a_i6butieCB6IQFA/viewform?usp=dialog";
 
   return (
@@ -16,7 +16,7 @@ export default function ContestPage() {
         </p>
         <div className="flex flex-col gap-3 sm:flex-row">
           <a
-            href={signupFormUrl}
+            href={trainingFormUrl}
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center justify-center rounded-md bg-slate-900 px-6 py-3.5 text-base font-semibold text-white shadow-sm ring-1 ring-slate-900/10 hover:bg-slate-800"
@@ -103,7 +103,7 @@ export default function ContestPage() {
           Placeholder CTA text inviting participants to complete the training and prepare for submission.
         </p>
         <a
-          href={signupFormUrl}
+          href={trainingFormUrl}
           target="_blank"
           rel="noopener noreferrer"
           className="mt-6 inline-flex items-center justify-center rounded-md bg-white px-6 py-3.5 text-base font-semibold text-slate-900 shadow-sm ring-1 ring-white/30 hover:bg-slate-100"
